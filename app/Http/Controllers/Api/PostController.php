@@ -36,6 +36,7 @@ class PostController extends Controller
      */
     public function store(Request $request)
     {
+        return auth()->user();
         $data = $request->validate([
             'name' => 'required|max:255',
             'slug' => 'required|max:255|unique:posts',
@@ -45,8 +46,9 @@ class PostController extends Controller
         ]);
 
         $user = auth()->user();
-        $post = Post::create($data);
+
         $data['user_id'] = $user->id;
+        $post = Post::create($data);
 
         return PostResource::make($post);
     }

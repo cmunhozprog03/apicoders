@@ -1,0 +1,9 @@
+ Personal access client created successfully.
+ Client ID: 940f4c1e-a68d-472e-ade5-9e0bd8f52746
+ Client secret: 6sYAZQRywGjt3dOdoVx4Q4nxy836zaEw8S3DGGPz
+ Password grant client created successfully.
+ Client ID: 940f4c1e-b57d-4b04-99b1-95a7728c7564
+ Client secret: JsalZaskDDL8KzCk9Z7Eco87TSJJ43rqQg1KjL8i
+
+Client ID: 9410b4da-6250-45d1-bf9b-68d0d63a4d82
+Client secret: e7QuLEkHVNM28XZCpPDMPWFYEYi4F1XdlCk11i00
