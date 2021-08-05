@@ -4,5 +4,21 @@
             Clientes
         </h2>
     </x-slot>
+
+    <x-container class="py-6">
+        <x-form-section>
+            <x-slot name="title">
+                Criar um novo cliente
+            </x-slot>
+            <x-slot name="description">
+                Inserir os dados para criar um novo cliente
+            </x-slot>
+            <x-slot name="actions">
+                Criar
+            </x-slot>
+
+            
+        </x-form-section>
+    </x-container>
 </x-app-layout>
 
